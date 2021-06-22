@@ -1,0 +1,37 @@
+@import './_variables.scss';
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 100%;
+
+  .card {
+    min-height: $card-height;
+    min-width: $card-width;
+    background-size: 100%;
+    transition:all 0.3s ease;
+
+    @each $s in $suit {
+      @for $i from 1 through 13
+      {
+      &.#{$s}-#{$i} {
+        background-image: url("./assets/cards/#{$s}-#{$i}.svg");
+      }
+      }
+    }
+
+    &:hover {
+      z-index: 50;
+    }
+  }
+
+  &.hidden {
+    .card {
+      background: rgb(0,212,255);
+      background: radial-gradient(circle, #00d4ff 0%, #090979 65%, #020024 97%);
+      border: 1px solid;
+      border-radius: 10px;
+    }
+  }
+}
