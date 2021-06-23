@@ -8,14 +8,17 @@ export default class CardDeck extends Component {
         let cardList = [];
         Object.keys(Suits).map((suit)=>{
             for (let i = 1; i < 14; i++) {
-                cardList.push(<Card number={i} suit={suit} />); 
+                const str = i.toString();
+                const key = `${suit}-${str}`;
+                cardList.push(<Card number={str} suit={suit} key={key} />); 
             }
-          })
-          return cardList;    
+            return true;
+        })
+        return cardList;    
     }
     render() {
         return (
-            <div class="cards-wrapper">
+            <div className="cards-wrapper">
                 {this.getCards()}
             </div>
         );
