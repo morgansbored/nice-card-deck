@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nice-card-deck/static/css/main.231b0cfa.chunk.css",
+    "main.js": "/nice-card-deck/static/js/main.1d49e507.chunk.js",
+    "main.js.map": "/nice-card-deck/static/js/main.1d49e507.chunk.js.map",
+    "runtime-main.js": "/nice-card-deck/static/js/runtime-main.3df053ba.js",
+    "runtime-main.js.map": "/nice-card-deck/static/js/runtime-main.3df053ba.js.map",
+    "static/js/2.3a5930d2.chunk.js": "/nice-card-deck/static/js/2.3a5930d2.chunk.js",
+    "static/js/2.3a5930d2.chunk.js.map": "/nice-card-deck/static/js/2.3a5930d2.chunk.js.map",
+    "static/js/3.c5de6603.chunk.js": "/nice-card-deck/static/js/3.c5de6603.chunk.js",
+    "static/js/3.c5de6603.chunk.js.map": "/nice-card-deck/static/js/3.c5de6603.chunk.js.map",
+    "index.html": "/nice-card-deck/index.html",
+    "static/css/main.231b0cfa.chunk.css.map": "/nice-card-deck/static/css/main.231b0cfa.chunk.css.map",
+    "static/js/2.3a5930d2.chunk.js.LICENSE.txt": "/nice-card-deck/static/js/2.3a5930d2.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/nice-card-deck/static/media/spades-9.2e0e0e86.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3df053ba.js",
+    "static/js/2.3a5930d2.chunk.js",
+    "static/css/main.231b0cfa.chunk.css",
+    "static/js/main.1d49e507.chunk.js"
+  ]
+}
