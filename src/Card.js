@@ -26,8 +26,3 @@ Card.propTypes = {
     number: PropTypes.string.isRequired,
     suit: PropTypes.oneOf(Object.keys(Suits))
 };
-
-Card.defaultProps = {
-    number: "1",
-    suit: Suits.DIAMONDS
-};
